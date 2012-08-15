@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="0">
+    <TableRow android:layout_height="wrap_content" android:id="@+id/room1tableRow1" android:layout_weight="0" android:layout_width="wrap_content">
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/room1tableRow2">
+        <TextView android:text="device1" android:id="@+id/room1tv2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"></TextView>
+        <ToggleButton android:layout_height="wrap_content" android:id="@+id/room1tb1" android:layout_width="wrap_content" android:text="ToggleButton"></ToggleButton>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/room1tableRow3">
+        <TextView android:layout_width="fill_parent" android:text="device2" android:layout_weight="1" android:id="@+id/room1tv3" android:layout_height="wrap_content"></TextView>
+        <ToggleButton android:layout_height="wrap_content" android:id="@+id/room1tb2" android:layout_width="wrap_content" android:text="ToggleButton"></ToggleButton>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/room1tableRow4" android:layout_weight="0">
+        <TextView android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/room1tv1" android:layout_height="wrap_content" android:text="laptop"></TextView>
+        <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/room1tb3"></ToggleButton>
+    </TableRow>
+    <Button android:id="@+id/room1bsync" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="SAVE"></Button>
+    
+</LinearLayout>

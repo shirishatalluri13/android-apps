@@ -1,0 +1,45 @@
+package com.example.simplelistactivity;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.drawable.ShapeDrawable;
+import android.os.Bundle;
+import android.view.View;
+
+public class shapedrawable extends Activity{
+
+	class mycustomdrawable extends View{
+		ShapeDrawable mShapDrawable;
+		public mycustomdrawable(Context context) {
+			super(context);
+			// TODO Auto-generated constructor stub
+		
+		}
+
+		@Override
+		protected void onDraw(Canvas canvas) {
+			// TODO Auto-generated method stub
+			super.onDraw(canvas);
+			
+		}
+		
+		
+	}
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+	
+	}
+
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+	}
+	
+	
+
+}

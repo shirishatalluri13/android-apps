@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ListviewActivity!</string>
+    <string name="app_name">Listview</string>
+    
+	<string name="dev1">bulb      </string>
+	<string name="dev2">tube light</string>
+	<string name="dev3">Fan       </string>
+    <string name="bulb">a</string>
+    <string name="fan">b</string>
+    <string-array name="countriesArray"><item>bahrain</item>
+        
+    <item>india</item>
+    <item>ameriaca</item>
+    <item>netherlands</item>
+        
+   </string-array>
+    <string name="laptop">laptop</string>
+    <string name="sync">SYNC</string>
+</resources>

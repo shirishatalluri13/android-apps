@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AppconfigtriesActivity!</string>
+    <string name="app_name">Appconfigtries</string>
+    <string name="config">config</string>
+    <string name="menu">menu</string>
+</resources>

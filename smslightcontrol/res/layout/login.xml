@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:text="Login Name" android:id="@+id/logintv1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/loginet1" android:layout_width="fill_parent">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:text="Password" android:id="@+id/logintv2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/loginet2" android:inputType="textPassword" android:layout_width="fill_parent"></EditText>
+    <Button android:text="Login" android:layout_width="89dp" android:layout_height="wrap_content" android:id="@+id/loginb1"></Button>
+
+    
+</LinearLayout>

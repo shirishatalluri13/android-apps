@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;listview&apos; to &apos;androidsmsapp&apos;" description="Rename resource &apos;listview&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/listview" name="androidsmsapp" stamp="1317637368178" updateReferences="true"/>
+</session>

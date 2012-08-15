@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:weightSum="0">
+    <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow1" android:layout_weight="0" android:layout_width="wrap_content">
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow2">
+        <TextView android:text="@string/dev2" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"></TextView>
+        <ToggleButton android:layout_height="wrap_content" android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:text="ToggleButton"></ToggleButton>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow3">
+        <TextView android:layout_width="fill_parent" android:text="@string/dev3" android:layout_weight="1" android:id="@+id/textView3" android:layout_height="wrap_content"></TextView>
+        <ToggleButton android:layout_height="wrap_content" android:id="@+id/toggleButton2" android:layout_width="wrap_content" android:text="ToggleButton"></ToggleButton>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tableRow4" android:layout_weight="0">
+        <TextView android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/laptop"></TextView>
+        <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/toggleButton3"></ToggleButton>
+    </TableRow>
+    <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/sync"></Button>
+    
+</LinearLayout>

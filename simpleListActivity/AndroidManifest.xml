@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.simplelistactivity"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+   
+	
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        
+        <activity android:name=".SimpleListActivityActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".jay">
+			
+		</activity>
+		<activity android:name=".anurag">
+			
+		</activity>
+    	<activity android:name=".deepak">
+			
+		</activity>
+		<activity android:name=".extra">
+		
+		</activity>
+		<activity android:name=".onemore">
+		
+		</activity>
+		<activity android:name=".fullscreen">
+		
+		</activity>
+		<activity android:name=".shapedrawable">
+		
+		</activity>
+    </application>
+</manifest>
